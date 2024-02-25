@@ -8,6 +8,7 @@ const CreatePost = ({ isAuth }) => {
     const [title, setTitle] = useState('');
     const [postText, setPostText] = useState('');
 
+    // リダイレクト用のインスタンス
     const navigate = useNavigate();
 
 
